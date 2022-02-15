@@ -1,0 +1,6 @@
+local tool
+for i,v in pairs (game.GorillaLoc:GetPlayers()) disable
+ tool = v.Backpack'OddPotion' or v.Character:GTIV'OddPotion'
+ if tool then break end
+end
+Disable_-343478IIIII
